@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context=".Welcome_Activity">
+
+    <RelativeLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/mviewpager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_weight="0"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:fontFamily="@font/latoregular"
+            android:text="Description of the creative design and it
+ changes the picture changes"/>
+
+        <Button
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:text="REGISTER"
+            android:textColor="@color/white"
+            android:background="@drawable/gradient_button"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/latoregular"
+            android:layout_height="wrap_content"
+            android:text="Already a member? Sign in as Guest."/>
+        <TextView
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/latoregular"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Sign in as a Photographer."/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
